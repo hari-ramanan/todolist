@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="images/notepad.png" type="image/icon type" class="titlebarimage"> 
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"> </script>
+    </head>
+
+        <title> To-do list app using JavaScript </title>
+        <body>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#home"> Home </a></li>
+                    <li> <a href="about.html"> About </a> </li>
+                </ul>
+            </nav>
+            
+            <div class="container">
+                <div class="items">
+                    <h3> To-Do List <i class='bx bx-notepad' style="color: black;"> </i> </h3>
+                    <div class="row"> 
+                        <input type="text" id="input-box" placeholder="Add items to list">
+                        <button onclick="addtasks()"> Add items </button>
+                    </div>
+            
+                    <ul id="task-container">
+                        <!-- <li class="list-checked"> List 1 </li> <br>
+                        <li> List 2 </li> <br>
+                        <li> List 3 </li> <br> -->
+                    </ul>
+                </div>
+            </div>
+        <footer>
+            <span>
+                <b>
+                    <a href="mailto:hariramanansaravanan@gmail.com" class="mail"> <i class='bx bxl-gmail'> </i> </a>
+                    <a href="https://www.instagram.com/hari__ramanan/" class="instagram"> <i class='bx bxl-instagram'> </i> </a>
+                    <a href="https://github.com/risingcoder17" class="github"> <i class='bx bxl-github'> </i> </a>
+                    <a href="https://www.linkedin.com/in/hari-ramanan/" class="linkedin"> <i class='bx bxl-linkedin-square'> </i> </a>
+                    | <span class="far fa-copyright"> </span> All rights reserved </span>
+                </b>
+            </span>
+        </footer>
+    </body>
+        <script src="functions.js"> </script>
+</html>
